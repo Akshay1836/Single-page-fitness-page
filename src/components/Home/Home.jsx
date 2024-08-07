@@ -1,10 +1,10 @@
 import React from 'react'
-import bg from "../../assets/bg1.jpeg"
+import bg from "../../assets/bg1.jpg"
 const Home = () => {
   return (
-        <div class="flex min-h-screen w-screen flex-col bg-gradient-to-l from-slate-800 to-violet-900">
-        <div class="sm:my-auto mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
-          <div class="flex flex-col items-center justify-between lg:flex-row">
+        <div class="flex min-h-screen w-screen  flex-col bg-gradient-to-l from-slate-800 to-violet-900">
+        <div class="sm:my-2 mx-auto px-4  sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 ">
+          <div class="flex flex-col  items-center justify-between lg:flex-row">
             <div class="mb-10 lg:mb-0 lg:max-w-lg lg:pr-5">
               <div class="mb-6 max-w-xl">
                 <div>
@@ -23,7 +23,7 @@ const Home = () => {
               </div>
             </div>
             <div class="relative shadow-lg shadow-violet-700 lg:w-1/2">
-            <img class="h-56 w-full rounded object-cover shadow-lg sm:h-96" src={bg} alt="Gym Weights Background" />
+            <img class="h-56 w-full rounded-lg object-cover shadow-lg sm:h-96" src={bg} alt="Gym Weights Background" />
               <a href="/" aria-label="Play Video" class="group absolute inset-0 flex h-full w-full items-center justify-center bg-gray-900 bg-opacity-30 transition-colors duration-300 hover:bg-opacity-10">
                
               </a>

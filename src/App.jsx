@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <div className="bg-gradient-to-l from-slate-800 to-violet-900">
+    <div className="bg-gradient-to-l from-slate-800 to-violet-900 overflow-hidden">
       <Navbar/>
       <Home />
       <Customers />

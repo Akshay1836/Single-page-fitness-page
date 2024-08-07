@@ -2,8 +2,8 @@ import React from "react";
 import banner from "../../assets/banner.jpg"
 const Booking = () => {
   return (
-    <div class="flex flex-wrap text-slate-800">
-      <div class="relative hidden h-screen select-none flex-col justify-center bg-gray-700 text-center md:flex md:w-1/3">
+    <div class="flex ml-2 flex-wrap text-slate-800">
+      <div class="relative  hidden h-screen rounded-md select-none flex-col justify-center bg-violet-800 text-center md:flex md:w-1/3">
         <img
           class="mx-auto w-56 max-w-lg rounded-lg object-cover"
           src={banner}
@@ -11,7 +11,7 @@ const Booking = () => {
         <div class="mx-auto  px-8 text-white">
           <p class="my-6 text-4xl font-bold leading-10">
             We'll do the{" "}
-            <span class="truncate border-b-4 pb-1 border-violet-600 font-bold text-violet-600">
+            <span class="truncate border-b-4 pb-1 border-white font-bold text-violet-300">
               heavy lifting
             </span>
           </p>
@@ -36,7 +36,7 @@ const Booking = () => {
           <form class="flex flex-col items-stretch pt-3 pb-8 md:pt-8">
             <div class="grid gap-x-4 gap-y-3 sm:grid-cols-2">
               <label class="block" for="name">
-                <p class="mb-1 mt-2 text-sm text-gray-600">Name</p>
+                <p class="mb-1 mt-2 text-sm text-gray-200">Name</p>
                 <input
                   class="w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2"
                   type="text"
@@ -44,7 +44,7 @@ const Booking = () => {
                 />
               </label>
               <label class="block" for="phone">
-                <p class="mb-1 mt-2 text-sm text-gray-600">Phone Number</p>
+                <p class="mb-1 mt-2 text-sm text-gray-200">Phone Number</p>
                 <input
                   class="w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2"
                   type="phone"
@@ -52,7 +52,7 @@ const Booking = () => {
                 />
               </label>
               <label class="block" for="men">
-                <p class="mb-1 mt-2 text-sm text-gray-600">Man Power</p>
+                <p class="mb-1 mt-2 text-sm text-gray-200">Man Power</p>
                 <select
                   class="w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2"
                   type="text"
@@ -66,7 +66,7 @@ const Booking = () => {
                 </select>
               </label>
               <label class="block" for="address">
-                <p class="mb-1 mt-2 text-sm text-gray-600">Street Address</p>
+                <p class="mb-1 mt-2 text-sm text-gray-200">Street Address</p>
                 <input
                   class="w-full rounded-md border bg-white py-2 px-2 outline-none ring-violet-500 focus:ring-2"
                   type="text"
@@ -74,7 +74,7 @@ const Booking = () => {
                 />
               </label>
               <label class="block sm:col-span-2" for="message">
-                <p class="mb-1 mt-2 text-sm text-gray-600">Message</p>
+                <p class="mb-1 mt-2 text-sm text-gray-200">Message</p>
                 <textarea
                   class="h-32 w-full rounded-md border bg-white py-2 px-2 outline-none ring-violet-500 focus:ring-2"
                   type="text"
@@ -83,7 +83,7 @@ const Booking = () => {
               </label>
             </div>
             <div class="block">
-              <label class="inline-block text-sm text-gray-500" for="">
+              <label class="inline-block text-sm text-gray-200" for="">
                 {" "}
                 By clicking submit you agree to the{" "}
                 <a class="underline" href="#">

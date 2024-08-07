@@ -6,7 +6,7 @@ import logo4 from "../../assets/logo4.jpg"
 import logo5 from "../../assets/logo5.png"
 const Customers = () => {
   return (
-    <div class="mx-auto max-w-screen-lg px-8 pt-20 pb-16 text-gray-700 md:pt-24 md:pb-20">
+    <div class="mx-auto max-w-screen-lg px-8  pb-16 text-gray-700 md:pt-24 md:pb-20">
       <div class="flex flex-wrap">
         <div class="w-full max-w-full flex-shrink-0 lg:mt-2 lg:w-1/3 lg:flex-none">
           <h2 class="mb-3 text-xs font-bold uppercase tracking-wide text-gray-300 xl:text-base">

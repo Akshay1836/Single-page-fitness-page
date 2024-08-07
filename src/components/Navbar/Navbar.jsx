@@ -21,7 +21,7 @@ const Navbar = () => {
               />
             </svg>
           </span>
-          <span>GYM WORLD</span>
+          <span className="text-gray-300">GYM WORLD</span>
         </a>
         <input class="peer hidden" type="checkbox" id="navbar-open" />
         <label
